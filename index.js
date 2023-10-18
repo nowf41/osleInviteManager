@@ -24,7 +24,7 @@ for (const folder of commandFolders) {
 }
 
 client.once(Events.ClientReady, () => {
-	console.log('Ready!');
+	console.log(`Ready! Logged in as ${app.client.user}`);
 });
 
 client.on(Events.InteractionCreate, async interaction => {
