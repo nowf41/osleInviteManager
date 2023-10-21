@@ -14,10 +14,11 @@ module.exports = {
             minits: (('00' + now.getMinutes()).slice(-2))
         }
         let aisatsu;
-        if(nowT.hours >= 5 && nowT.hours <= 12){aisatsu='Good Morning'
-        }else if(nowT.hours > 12 && nowT.hours <= 18){aisatsu='Good Afternoon'
-        }else if(nowT.hours > 18 || nowT.hours < 5){aisatsu='Good Night'
+        if(nowT.hours >= 5 && nowT.hours <= 12){aisatsu='おはよう'
+        }else if(nowT.hours > 12 && nowT.hours <= 18){aisatsu='こんにちは'
+        }else if(nowT.hours > 18 || nowT.hours < 5){aisatsu='こんばんは'
         }else{aisatsu='Hi'};
-        await interaction.reply(`${aisatsu}, ${interaction.user.username}! It's ${nowT.hours}:${nowT.minits}!`);
+        const reply = `${interaction.user.username}おにいちゃん、${aisatsu}♥ いまの時間もわかんないのぉ?♥ なっさけな～い♥ いまは${nowT.hours}時${nowT.minits}分だよぉ♥`;
+        await interaction.reply({content: reply, ephemeral: true });
     }
 }

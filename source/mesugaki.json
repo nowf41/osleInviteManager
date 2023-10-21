@@ -25,5 +25,5 @@
         "だっさ〜♥",
         "かわいそ〜♥"
     ],
-    "info": "使い方\n/`mesugaki info` このメッセージを表示します\n`/mesugaki sentence` *公開で*メスガキ語録をランダム出力(*非推奨*)\n`/mesugaki sentence-eph` 自分だけにメスガキ語録をランダム出力"
+    "info": "使い方\n`/mesugaki info` このメッセージを表示します\n`/mesugaki sentence` *公開で*メスガキ語録をランダム出力(*非推奨*)\n`/mesugaki sentence-eph` 自分だけにメスガキ語録をランダム出力"
 }
