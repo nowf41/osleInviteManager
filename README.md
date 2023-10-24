@@ -1,2 +1,2 @@
-# mesugakibot
-This is a source code of Mesugaki Bot who is discord bot.
+# permissionBOT
+This is a source code of Permission Manager Bot who is discord bot.
