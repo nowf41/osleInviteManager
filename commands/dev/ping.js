@@ -5,7 +5,7 @@ module.exports = {
         .setName('ping')
         .setDescription('Replies with Pong!'),
     async execute(interaction){
-        const reply = `${interaction.user.username}おにいちゃん、呼んだぁ～?♥ (Pong! ${interaction.user.username}からのコマンド入力を検知しました。)`
+        const reply = `Pong! Got ping successfully from ${interaction.user.username}`
         await interaction.reply({content: reply, ephemeral: true });
     }
 }
