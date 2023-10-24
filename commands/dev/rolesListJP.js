@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('roleslist')
+        .setName('roles')
         .setDescription('このサーバーでのロールの一覧を表示します。'),
     async execute(interaction){
         let replyText = '```';
