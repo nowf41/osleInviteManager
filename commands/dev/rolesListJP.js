@@ -3,7 +3,7 @@ const { SlashCommandBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('roleslist')
-        .setDescription('Replies list of roles of this server!'),
+        .setDescription('このサーバーでのロールの一覧を表示します。'),
     async execute(interaction){
         let replyText = '```';
         interaction.guild.roles.cache.forEach(role => replyText += `${role.name}\n`);
