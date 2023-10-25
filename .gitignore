@@ -25,3 +25,5 @@ venv.bak/
 token.txt
 config.*
 node_modules/*
+*sec*
+secure/*
